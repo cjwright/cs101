@@ -15,3 +15,12 @@ def get_next_target(s):
         url = s[start_quote+1:end_quote]
     return url, end_quote
 
+def print_all_links(page):
+    while True:
+        url, endpos = get_next_target(page)
+        if url:
+            print url
+            page = page[endpos:]
+        else:
+            break
+

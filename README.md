@@ -1,3 +1,3 @@
 # cs101
 
-Udacity CS101 files
+Udacity CS101 files.
